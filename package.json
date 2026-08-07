@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server -p 3000",
-    "test": "echo \"No tests implemented yet\" && exit 0"
+    "test": "playwright test"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/JulienVink/eco-growth-discovery#readme",
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
     "http-server": "^14.1.1"
   }
 }
