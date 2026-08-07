@@ -1,0 +1,26 @@
+{
+  "name": "eco-growth-discovery",
+  "version": "1.0.0",
+  "description": "Eco-growth discovery project",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 3000",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulienVink/eco-growth-discovery.git"
+  },
+  "keywords": [],
+  "author": "JulienVink",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JulienVink/eco-growth-discovery/issues"
+  },
+  "homepage": "https://github.com/JulienVink/eco-growth-discovery#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "http-server": "^14.1.1"
+  }
+}
